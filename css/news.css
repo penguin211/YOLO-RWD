@@ -1,0 +1,568 @@
+html{
+	width: 100%;
+	background-color: #ffffff;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+@media (min-width: 320px){
+	/*nav*/
+	.navbar{
+		padding-left:20px!important;
+		padding-right:20px!important; 
+	}
+
+	.navbar-brand img {
+		height: 60px;
+	}
+	
+	.navbar-slogan{
+		margin-top: 25px;
+		margin-left: 0px;
+	}
+	
+	.slogan{
+		font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;
+		font-size: 18px;
+		line-height: 10px;
+	}
+
+	/*banner倫播*/
+	.banner {
+		margin-top: 76px;
+	}
+
+	.banner .container-fluid {
+		padding:0!important;
+	}
+
+	/*news*/
+	.news .title{
+		font-size: 30px;
+		font-weight: bold;
+		color: #000000;
+		padding: 20px 0;
+		margin: 0;
+	}
+
+	.news img{
+		height: 85px;
+	}
+
+	/*discount*/
+	.discount{
+		margin-top: 20px;
+		background: linear-gradient(#ffffff , #fff0f0 , #ffffff );
+	}
+
+	.discount_p1{
+		font-size: 28px;
+		font-weight: bold;
+		color: #ec4a2f;
+		line-height: 20px;
+		padding: 10px;
+		margin: 10px 0;
+	}
+
+	.discount_p2{
+		font-size: 45px;
+		font-weight: bold;
+		color: #ec4a2f;
+		line-height: 20px;
+		padding: 10px;
+		margin: 0;
+	}
+
+	.discount_p3{
+		font-size: 20px;
+		font-weight: bold;
+		color: #2f365d;
+		line-height: 20px;
+		padding: 10px;
+		margin: 0;
+		margin-top: 20px;
+	}
+
+	.discount_p4{
+		font-size: 17px;
+		font-weight: bold;
+		color: #7e7675;
+		padding: 10px;
+		margin-left: 60px;
+	}
+
+	input[type=button] {
+        width: 210px;
+        height: 85px;
+		font-size: 35px;
+		font-weight: bold;
+        color: #ec4a2f;
+        background-color: #ffcece;
+        border: none;
+        border-radius: 75px;
+        margin-top: 30px;
+    }
+      
+    input[type=button]:hover {
+        background: linear-gradient(#ffffff, #fddddd);
+        color: #d63114;
+	}
+
+	/*step*/
+	.step{
+		margin-top: 25px;
+	}
+
+	.blue{
+        height: 16px;
+        background: linear-gradient(to right, #ffffff, #ade5fa);
+	}
+
+	.yellow{
+        height: 16px;
+        background: linear-gradient(to left, #ffffff, #fafead);
+	}
+
+	.step .title{
+		font-size: 35px;
+		font-weight: bold;
+		color: #2f365d;
+		padding: 20px 0;
+		margin: 0;
+	}
+
+	.step img{
+		height: 180px;
+		margin-top: 15px;
+		margin-bottom: 25px;
+	}
+
+	.step_p{
+		font-size: 18px;
+		color: #7b7372;
+		line-height: 30px;
+		padding: 10px;
+		margin: 0;
+	}
+
+	/*footer*/
+	.footer {
+		background-color: #f6f2f2;
+		padding:20px 0;
+		margin-top: 20px;
+	}
+
+	.footer .col-md-4 .row{
+		margin: auto;
+		margin-left: 20px;
+	}
+	
+	.f-title {
+		font-size: 30px;
+		line-height: 20px;
+		padding-top: 30px; 
+	}
+
+	.f-logo{
+		font-size: 40px;
+		font-weight: bold;
+		line-height: 20px;
+		padding-top: 30px; 
+	}
+
+	.fp{
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+	.fr{
+		font-size: 20px;
+		line-height: 20px; 
+	}
+
+	.footer img{
+		height: 80px;
+	}
+
+	.ig{
+		margin-left: 100px;
+	}
+
+	.fb{
+		margin-right: 100px;
+	}
+}
+
+@media (min-width: 768px){
+	/*nav*/
+	.navbar{
+		padding-left:50px!important;
+		padding-right:50px!important; 
+	}
+
+	.navbar-brand img {
+		height: 80px;
+	}
+	
+	.navbar-slogan{
+		margin-top: 25px;
+		margin-left: 0px;
+	}
+	
+	.slogan{
+		font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;
+		font-size: 20px;
+		line-height: 15px;
+	}
+
+	/*banner倫播*/
+	.banner {
+		margin-top: 76px;
+	}
+
+	.banner .container-fluid {
+		padding:0!important;
+	}
+
+	/*news*/
+	.news .title{
+		font-size: 25px;
+		font-weight: bold;
+		color: #000000;
+		padding: 20px 0;
+		margin: 0;
+	}
+
+	.news img{
+		height: 140px;
+	}
+
+	/*discount*/
+	.discount{
+		margin-top: 20px;
+		background: linear-gradient(#ffffff , #fff0f0 , #ffffff );
+	}
+
+	.discount_p1{
+		font-size: 28px;
+		font-weight: bold;
+		color: #ec4a2f;
+		line-height: 20px;
+		padding: 10px;
+		margin: 10px 0;
+	}
+
+	.discount_p2{
+		font-size: 45px;
+		font-weight: bold;
+		color: #ec4a2f;
+		line-height: 20px;
+		padding: 10px;
+		margin: 0;
+	}
+
+	.discount_p3{
+		font-size: 20px;
+		font-weight: bold;
+		color: #2f365d;
+		line-height: 20px;
+		padding: 10px;
+		margin: 0;
+	}
+
+	.discount_p4{
+		font-size: 17px;
+		font-weight: bold;
+		color: #7e7675;
+		padding: 10px;
+		margin: 0;
+	}
+
+	input[type=button] {
+        width: 210px;
+        height: 85px;
+		font-size: 35px;
+		font-weight: bold;
+        color: #ec4a2f;
+        background-color: #ffcece;
+        border: none;
+        border-radius: 75px;
+        margin-top: 30px;
+    }
+      
+    input[type=button]:hover {
+        background: linear-gradient(#ffffff, #fddddd);
+        color: #d63114;
+	}
+
+	/*step*/
+	.step{
+		margin-top: 25px;
+	}
+
+	.blue{
+        height: 16px;
+        background: linear-gradient(to right, #ffffff, #ade5fa);
+	}
+
+	.yellow{
+        height: 16px;
+        background: linear-gradient(to left, #ffffff, #fafead);
+	}
+
+	.step .title{
+		font-size: 55px;
+		font-weight: bold;
+		color: #2f365d;
+		padding: 20px 0;
+		margin: 0;
+	}
+
+	.step img{
+		height: 210px;
+		margin-top: 15px;
+		margin-bottom: 25px;
+	}
+
+	.step_p{
+		font-size: 15px;
+		color: #7b7372;
+		line-height: 16px;
+		padding: 10px;
+		margin: 0;
+	}
+
+	/*footer*/
+	.footer {
+		background-color: #f6f2f2;
+		padding:20px 0;
+		margin-top: 35px;
+	}
+
+	.footer .col-md-4 .row{
+		margin: auto;
+		margin-left: 20px;
+	}
+	
+	.f-title {
+		font-size: 25px;
+		line-height: 20px;
+		padding:20px 0; 
+	}
+
+	.f-logo{
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 20px;
+		padding:20px 0; 
+	}
+
+	.fp{
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.fr{
+		font-size: 14px;
+		line-height: 20px; 
+	}
+
+	.footer img{
+		height: 60px;
+	}
+
+	.ig{
+		margin: 0px;
+	}
+
+	.fb{
+		margin: 0px;
+	}
+}
+
+@media (min-width: 1280px){
+	/*nav選單*/
+	.navbar{
+		padding-left:50px!important;
+		padding-right:50px!important; 
+	}
+
+	.navbar-brand img {
+		height: 100px;
+	}
+	
+	.navbar-slogan{
+		margin-top: 25px;
+		margin-left: 500px;
+	}
+	
+	.slogan{
+		font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;
+		font-size: 20px;
+		line-height: 15px;
+	}
+
+	/*banner輪播*/
+	.banner {
+		margin-top: 76px;
+	}
+
+	.banner .container-fluid {
+		padding:0!important;
+	}
+
+	/*news*/
+	.news .title{
+		font-size: 50px;
+		font-weight: bold;
+		color: #000000;
+		padding: 20px 0;
+		margin: 0;
+	}
+
+	.news img{
+		height: 240px;
+	}
+
+	/*discount*/
+	.discount{
+		margin-top: 50px;
+		background: linear-gradient(#ffffff , #fff0f0 , #ffffff );
+	}
+
+	.discount_p1{
+		font-size: 48px;
+		font-weight: bold;
+		color: #ec4a2f;
+		line-height: 50px;
+		padding: 10px;
+		margin: 10px 0;
+	}
+
+	.discount_p2{
+		font-size: 80px;
+		font-weight: bold;
+		color: #ec4a2f;
+		line-height: 50px;
+		padding: 10px;
+		margin: 0;
+	}
+
+	.discount_p3{
+		font-size: 30px;
+		font-weight: bold;
+		color: #2f365d;
+		line-height: 50px;
+		padding: 10px;
+		margin: 0;
+	}
+
+	.discount_p4{
+		font-size: 28px;
+		font-weight: bold;
+		color: #7e7675;
+		padding: 10px;
+		margin: 0;
+	}
+
+	input[type=button] {
+        width: 420px;
+        height: 140px;
+		font-size: 65px;
+		font-weight: bold;
+        color: #ec4a2f;
+        background-color: #ffcece;
+        border: none;
+        border-radius: 75px;
+        margin-top: 45px;
+    }
+      
+    input[type=button]:hover {
+        background: linear-gradient(#ffffff, #fddddd);
+        color: #d63114;
+	}
+	
+	/*step*/
+	.step{
+		margin-top: 40px;
+	}
+
+	.blue{
+        height: 25px;
+        background: linear-gradient(to right, #ffffff, #ade5fa);
+	}
+
+	.yellow{
+        height: 25px;
+        background: linear-gradient(to left, #ffffff, #fafead);
+	}
+
+	.step .title{
+		font-size: 65px;
+		font-weight: bold;
+		color: #2f365d;
+		padding: 20px 0;
+		margin: 0;
+	}
+
+	.step img{
+		height: 320px;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+
+	.step_p{
+		font-size: 24px;
+		color: #7b7372;
+		line-height: 30px;
+		padding: 10px;
+		margin: 0;
+	}
+
+	/*footer*/
+	.footer {
+		background-color: #f6f2f2;
+		padding:20px 0; 
+		margin-top: 55px;
+	}
+
+	.footer .col-md-4 .row{
+		margin: auto;
+		margin-left: 60px;
+	}
+	
+	.f-title {
+		font-size: 30px;
+		line-height: 20px;
+		padding:20px 0; 
+	}
+
+	.f-logo{
+		font-size: 40px;
+		font-weight: bold;
+		line-height: 20px;
+		padding:20px 0; 
+	}
+
+	.fp{
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+	.footer img{
+		height: 80px;
+	}
+
+	.ig{
+		margin: 0px;
+	}
+
+	.fb{
+		margin: 0px;
+	}
+}

@@ -1,0 +1,510 @@
+html{
+	width: 100%;
+	background-color: #ffffff;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+@media (min-width: 320px){
+	/*nav*/
+	.navbar{
+		padding-left:20px!important;
+		padding-right:20px!important; 
+	}
+
+	.navbar-brand img {
+		height: 60px;
+	}
+	
+	.navbar-slogan{
+		margin-top: 25px;
+		margin-left: 0px;
+	}
+	
+	.slogan{
+		font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;
+		font-size: 18px;
+		line-height: 10px;
+	}
+
+	/*banner倫播*/
+	.banner {
+		margin-top: 76px;
+	}
+
+	.banner .container-fluid {
+		padding:0!important;
+	}
+
+	/*scene*/
+	.scene {
+		height: 750px;
+		padding:50px 0;
+		background-color: #FFFFFF; 
+	}
+
+	.title {
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+		color: #000000;
+		padding-bottom: 30px;
+		margin: 0;
+	}
+
+	.scene img {
+		height: 150px;
+		border-radius: 20px;
+		box-shadow:2px 2px 4px gray;
+		opacity: 80%;
+	}
+
+	/*img*/
+	.p{
+		position: relative;
+		font-size: 20px;
+		font-weight: bold;
+		color: #FFFFFF;
+		top: -140px;
+		left: 140px;
+	}
+	
+	/*news*/
+	.news {
+		background-color: #f6f2f2;
+		padding: 50px 0 20px 0;
+	}
+
+	.news_p1 {
+		font-size: 30px;
+		font-weight: bold;
+		color: #ec4a2f;
+		line-height: 30px;
+		padding: 10px;
+	}
+
+	.news_p2 {
+		font-size: 65px;
+		font-weight: bold;
+		color: #ec4a2f;
+		line-height: 30px;
+		padding: 10px;
+	}
+
+	.news_p3{
+		font-size: 20px;
+		font-weight: bold;
+		color: #7e7675;
+		padding: 10px;
+		margin-left: 60px;
+	}
+
+	.news .col-md-6{
+		padding: 10px;
+	}
+
+	/*restsursnt*/
+	.restaurant {
+		height:750px;
+		padding:50px 0;
+	}
+
+	.restaurant img {
+		height: 150px;
+		border-radius: 20px;
+		box-shadow:2px 2px 4px gray;
+		opacity: 80%;
+	}
+
+	.p2{
+		position: relative;
+		font-size: 25px;
+		font-weight: bold;
+		color: #FFFFFF;
+		top: -40px;
+		left: 140px;
+	}
+
+	/*footer*/
+	.footer {
+		background-color: #f6f2f2;
+		padding:20px 0; 
+	}
+
+	.footer .col-md-4 .row{
+		margin: auto;
+		margin-left: 20px;
+	}
+	
+	.f-title {
+		font-size: 30px;
+		line-height: 20px;
+		padding-top: 30px; 
+	}
+
+	.f-logo{
+		font-size: 40px;
+		font-weight: bold;
+		line-height: 20px;
+		padding-top: 30px; 
+	}
+
+	.fp{
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+	.fr{
+		font-size: 20px;
+		line-height: 20px; 
+	}
+
+	.footer img{
+		height: 80px;
+	}
+
+	.ig{
+		margin-left: 100px;
+	}
+
+	.fb{
+		margin-right: 100px;
+	}
+}
+
+@media (min-width: 768px) {
+	/*nav*/
+	.navbar{
+		padding-left:50px!important;
+		padding-right:50px!important; 
+	}
+
+	.navbar-brand img {
+		height: 80px;
+	}
+	
+	.navbar-slogan{
+		margin-top: 25px;
+		margin-left: 0px;
+	}
+	
+	.slogan{
+		font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;
+		font-size: 20px;
+		line-height: 15px;
+	}
+
+	/*banner倫播*/
+	.banner {
+		margin-top: 76px;
+	}
+
+	.banner .container-fluid {
+		padding:0!important;
+	}
+
+	/*scene*/
+	.scene {
+		height: 350px;
+		padding:50px 0;
+		background-color: #FFFFFF; 
+	}
+
+	.title {
+		font-size: 35px;
+		font-weight: bold;
+		text-decoration: none;
+		color: #000000;
+		padding-bottom: 30px;
+		margin: 0;
+	}
+
+	.scene .row{
+		margin-left: 30px;
+	}
+
+	.scene img {
+		height: 150px;
+		border-radius: 20px;
+		box-shadow:2px 2px 4px gray;
+		opacity: 80%;
+	}
+
+	.p{
+		position: relative;
+		font-size: 25px;
+		font-weight: bold;
+		color: #FFFFFF;
+		top: -140px;
+		left: 10px;
+	}
+
+	/*news*/
+	.news {
+		background-color: #f6f2f2;
+		padding: 50px 0 20px 0;
+	}
+
+	.news_p1 {
+		font-size: 28px;
+		font-weight: bold;
+		color: #ec4a2f;
+		line-height: 20px;
+		padding: 10px;
+	}
+
+	.news_p2 {
+		font-size: 55px;
+		font-weight: bold;
+		color: #ec4a2f;
+		line-height: 20px;
+		padding: 10px;
+	}
+
+	.news_p3{
+		font-size: 17px;
+		font-weight: bold;
+		color: #7e7675;
+		padding: 10px;
+		margin: 0;
+		margin-top: 60px;
+	}
+
+	.news .col-md-6{
+		padding: 10px;
+	}
+
+	/*restsursnt*/
+	.restaurant {
+		height:350px;
+		padding:50px 0;
+	}
+
+	.restaurant img {
+		height: 150px;
+		border-radius: 20px;
+		box-shadow:2px 2px 4px gray;
+		opacity: 80%;
+	}
+
+	.p2{
+		position: relative;
+		font-size: 25px;
+		font-weight: bold;
+		color: #FFFFFF;
+		top: -40px;
+		left: 10px;
+	}
+
+	/*footer*/
+	.footer {
+		background-color: #f6f2f2;
+		padding:20px 0; 
+	}
+
+	.footer .col-md-4 .row{
+		margin: auto;
+		margin-left: 20px;
+	}
+	
+	.f-title {
+		font-size: 25px;
+		line-height: 20px;
+		padding:20px 0; 
+	}
+
+	.f-logo{
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 20px;
+		padding:20px 0; 
+	}
+
+	.fp{
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.fr{
+		font-size: 14px;
+		line-height: 20px; 
+	}
+
+	.footer img{
+		height: 60px;
+	}
+
+	.ig{
+		margin: 0px;
+	}
+
+	.fb{
+		margin: 0px;
+	}
+}
+
+@media (min-width: 1280px) {
+	/*nav選單*/
+	.navbar{
+		padding-left:50px!important;
+		padding-right:50px!important; 
+	}
+
+	.navbar-brand img {
+		height: 100px;
+	}
+	
+	.navbar-slogan{
+		margin-top: 25px;
+		margin-left: 500px;
+	}
+	
+	.slogan{
+		font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;
+		font-size: 20px;
+		line-height: 15px;
+	}
+
+	/*banner倫播*/
+	.banner {
+		margin-top: 76px;
+	}
+
+	.banner .container-fluid {
+		padding:0!important;
+	}
+	
+	/*scene*/
+	.scene {
+		height: 420px;
+		padding:50px 0;
+		background-color: #FFFFFF; 
+	}
+
+	.title {
+		font-size:45px;
+		font-weight: bold;
+		text-decoration: none;
+		color: #000000;
+		padding-bottom: 30px;
+		margin: 0;
+		}
+
+	.scene img {
+		height: 240px;
+		border-radius: 20px;
+		box-shadow:2px 2px 4px gray;
+		opacity: 80%;
+	}
+
+	.p{
+		position: relative;
+		font-size: 25px;
+		font-weight: bold;
+		color: #FFFFFF;
+		top: -230px;
+		left: 30px;
+	}
+	
+	/*news*/
+	.news {
+		background-color: #f6f2f2;
+		padding:50px 0;
+	}
+
+	.news_p1 {
+		font-size: 45px;
+		font-weight: bold;
+		color: #ec4a2f;
+		line-height: 50px;
+		padding: 10px;
+	}
+
+	.news_p2 {
+		font-size: 75px;
+		font-weight: bold;
+		color: #ec4a2f;
+		line-height: 50px;
+		padding: 10px;
+	}
+
+	.news_p3{
+		font-size: 25px;
+		font-weight: bold;
+		color: #7e7675;
+		padding: 10px;
+		margin-top: 80px;
+	}
+
+	.news .col-md-6{
+		padding: 10px;
+	}
+
+	/*restsursnt*/
+	.restaurant {
+		height:420px;
+		padding:50px 0;
+	}
+
+	.restaurant img {
+		height: 240px;
+		border-radius: 20px;
+		box-shadow:2px 2px 4px gray;
+		opacity: 80%;
+	}
+
+	.p2{
+		position: relative;
+		font-size: 25px;
+		font-weight: bold;
+		color: #FFFFFF;
+		top: -50px;
+		left: 30px;
+	}
+
+	/*footer*/
+	.footer {
+		background-color: #f6f2f2;
+		padding:20px 0; 
+	}
+
+	.footer .col-md-4 .row{
+		margin: auto;
+		margin-left: 60px;
+	}
+	
+	.f-title {
+		font-size: 30px;
+		line-height: 20px;
+		padding:20px 0; 
+	}
+
+	.f-logo{
+		font-size: 40px;
+		font-weight: bold;
+		line-height: 20px;
+		padding:20px 0; 
+	}
+
+	.fp{
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+	.footer img{
+		height: 80px;
+	}
+
+	.ig{
+		margin: 0px;
+	}
+
+	.fb{
+		margin: 0px;
+	}
+}
